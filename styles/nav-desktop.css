@@ -1,0 +1,128 @@
+/* line 4, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+html, body {
+  margin: 0;
+  padding: 0; }
+
+/* line 7, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+.nav-mobile {
+  display: none; }
+
+/* line 9, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+#nav-desktop {
+  width: 100%;
+  height: 65px;
+  background: #2D3E49;
+  position: fixed;
+  top: 0;
+  left: 0; }
+  /* line 16, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+  #nav-desktop ul {
+    padding: 0; }
+    /* line 18, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+    #nav-desktop ul li {
+      list-style: none; }
+  /* line 20, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+  #nav-desktop .left {
+    float: left; }
+    /* line 22, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+    #nav-desktop .left .logo {
+      position: relative;
+      top: 15px;
+      left: 15px; }
+      /* line 26, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+      #nav-desktop .left .logo img {
+        width: 35px; }
+
+/* line 28, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+.mega-drop {
+  float: right;
+  position: relative;
+  top: 22px;
+  height: 100%; }
+  /* line 33, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+  .mega-drop .category {
+    float: left;
+    position: relative;
+    padding-right: 45px;
+    height: 100%; }
+    /* line 38, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+    .mega-drop .category:hover {
+      color: #b4dbed;
+      cursor: pointer;
+      transition: all .25s ease;
+      -webkit-transition: all .25s ease; }
+      /* line 43, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+      .mega-drop .category:hover > span {
+        padding-bottom: 6px;
+        border-bottom: 1px solid #b4dbed; }
+  /* line 47, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+  .mega-drop .drop .mega-title {
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid #333; }
+  /* line 51, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+  .mega-drop .drop1, .mega-drop .drop2, .mega-drop .drop3, .mega-drop .drop4 {
+    width: 100%;
+    height: 300px;
+    background: #fff;
+    display: block;
+    float: none;
+    position: fixed;
+    top: 65px;
+    left: 0;
+    padding-top: 55px !important;
+    opacity: 0;
+    clear: both;
+    height: 0;
+    padding: 0 8px;
+    overflow: hidden;
+    -webkit-transition: height .4s, opacity .4s, transform .3s;
+    -moz-transition: height .4s, opacity .4s, transform .3s;
+    -o-transition: height .4s, opacity .4s, transform .3s;
+    -ms-transition: height .4s, opacity .4s, transform .3s;
+    transition: height .4s, opacity .4s, transform .3s;
+    -webkit-box-shadow: 0px 2px 2px #DDDDDD;
+    -moz-box-shadow: 0px 2px 2px #DDDDDD;
+    box-shadow: 0px 2px 2px #DDDDDD;
+    background: #FFF; }
+
+/* line 76, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+.category {
+  color: #fff; }
+
+/* line 79, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+.cat1:hover > .drop1 {
+  opacity: 1;
+  height: 300px;
+  position: fixed;
+  top: 65px;
+  left: 0; }
+
+/* line 86, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+.cat2:hover > .drop2 {
+  opacity: 1;
+  height: 300px;
+  position: fixed;
+  top: 65px;
+  left: 0; }
+
+/* line 93, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+.cat3:hover > .drop3 {
+  opacity: 1;
+  height: 300px;
+  position: fixed;
+  top: 65px;
+  left: 0; }
+
+/* line 99, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+.cat4 {
+  padding-left: 55px; }
+  /* line 101, /Users/sawyerbateman/Desktop/navigation/styles/nav-desktop.sass */
+  .cat4:hover > .drop4 {
+    opacity: 1;
+    height: 300px;
+    position: fixed;
+    top: 65px;
+    left: 0; }
+
+/*# sourceMappingURL=nav-desktop.css.map */
